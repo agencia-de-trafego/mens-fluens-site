@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp",
-    "dev": "gulp",
-    "build": "gulp build",
+    "dev": "gulp dev",
+    "build": "gulp",
     "teste": "gulp stylesDist && gulp htmlDist && gulp imagesDist && gulp scriptsDist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
