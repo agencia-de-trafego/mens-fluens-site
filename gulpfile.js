@@ -119,9 +119,9 @@ function watchFiles() {
 
 //tasks
 const dev = gulp.series(serve, imagesDev ,stylesDev, htmlDev, scriptsDev, watchFiles);
-const build = gulp.series(stylesDist, htmlDist, scriptsDist, imagesDist);
+// const build = gulp.series(stylesDist, htmlDist, scriptsDist, imagesDist);
 
 //Exportar
 exports.dev = dev; // npm run gulp dev
-exports.build = build; // npm run gulp build
+// exports.build = build; // npm run gulp build
 // exports.default = dev; // seria somente o npm run gulp

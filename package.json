@@ -7,6 +7,8 @@
     "gulp": "gulp",
     "dev": "dev",
     "build": "build",
+    "teste": "gulp stylesDist && gulp htmlDist && gulp imagesDist && gulp scriptsDist",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
