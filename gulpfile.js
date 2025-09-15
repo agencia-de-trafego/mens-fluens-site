@@ -124,5 +124,5 @@ const build = gulp.series(stylesDist, htmlDist, scriptsDist, imagesDist);
 
 //Exportar
 exports.dev = dev; // npm run gulp dev
-// exports.build = build; // npm run gulp build
+exports.build = build; // npm run gulp build
 exports.default = build; // seria somente o npm run gulp
