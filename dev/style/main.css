@@ -1,0 +1,225 @@
+nav {
+  background-color: #fff;
+}
+nav .container__nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 0 1% 0;
+}
+nav .container__nav button {
+  background-color: greenyellow;
+  border-radius: 999px;
+  padding: 0 25px 0 25px;
+  height: 45px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 0.9rem;
+}
+nav .container__nav button:hover {
+  cursor: pointer;
+}
+
+header {
+  background-color: #ffecd0;
+  text-align: center;
+}
+header .container__header {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .container__header h2 {
+  padding-top: 5%;
+  font-size: 3rem;
+}
+header .container__header p {
+  padding: 3% 0 3% 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+header .container__header button {
+  background-color: greenyellow;
+  border-radius: 999px;
+  padding: 0 25px 0 25px;
+  height: 45px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 0.9rem;
+}
+header .container__header button:hover {
+  cursor: pointer;
+}
+header .container__header button {
+  margin-bottom: 3%;
+  font-size: 2rem;
+  height: 4.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container__header {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#descubra {
+  background-color: #fff;
+}
+#descubra .container__descubra {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+#descubra .container__descubra h3 {
+  padding: 5% 0 5% 0;
+  text-align: center;
+  font-size: 2rem;
+}
+#descubra .container__descubra__images {
+  display: flex;
+  text-align: center;
+}
+#descubra .container__descubra__images__image h4 {
+  margin-bottom: 6%;
+  font-size: 2rem;
+}
+#descubra .container__descubra__images__image img {
+  border-radius: 999px;
+  margin-bottom: 5%;
+  width: 50%;
+}
+#descubra .container__descubra__images__image p {
+  line-height: 200%;
+}
+#descubra .container__descubra__images__image button {
+  margin: 10% 0 15% 0;
+  background-color: greenyellow;
+  border-radius: 999px;
+  padding: 0 25px 0 25px;
+  height: 45px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 0.9rem;
+}
+#descubra .container__descubra__images__image button:hover {
+  cursor: pointer;
+}
+#descubra .container__descubra__images__image button {
+  font-size: 1.5rem;
+  height: 60px;
+}
+
+footer {
+  background-color: #ffecd0;
+}
+footer .container__footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2% 0 2% 0;
+}
+
+#explore {
+  background-color: #ffecd0;
+}
+#explore .container__explore {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+#explore .container__explore__descricao {
+  padding-right: 3%;
+}
+#explore .container__explore__descricao p {
+  color: rgba(36, 2, 255, 0.5960784314);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 200%;
+  padding: 10% 0 2% 0;
+}
+#explore .container__explore__descricao h3 {
+  font-size: 2rem;
+}
+#explore .container__explore__descricao h4 {
+  font-size: 2rem;
+  color: rgba(36, 2, 255, 0.5960784314);
+  width: 600px;
+}
+#explore .container__explore__descricao .paragrafo {
+  color: #000;
+  font-weight: 400;
+}
+#explore .container__explore__descricao button {
+  background-color: greenyellow;
+  border-radius: 999px;
+  padding: 0 25px 0 25px;
+  height: 45px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 0.9rem;
+}
+#explore .container__explore__descricao button:hover {
+  cursor: pointer;
+}
+#explore .container__explore__descricao button {
+  margin: 10% 0 10% 0;
+  font-size: 1.5rem;
+}
+#explore .container__explore__image img {
+  height: 400px;
+  width: 600px;
+}
+
+#yourself {
+  background-color: #fff;
+}
+#yourself .container__yourself {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+#yourself .container__yourself h3 {
+  font-size: 2rem;
+}
+#yourself .container__yourself p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 3% 0 3% 0;
+}
+#yourself .container__yourself button {
+  background-color: greenyellow;
+  border-radius: 999px;
+  padding: 0 25px 0 25px;
+  height: 45px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 0.9rem;
+}
+#yourself .container__yourself button:hover {
+  cursor: pointer;
+}
+#yourself .container__yourself button {
+  font-size: 2rem;
+  height: 60px;
+}
+/*# sourceMappingURL=main.css.map */

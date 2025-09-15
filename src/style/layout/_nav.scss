@@ -1,0 +1,21 @@
+@use "../abstracts/variaveis" as *;
+@use "../abstracts/mixins" as *;
+
+nav {
+    background-color: $firstColor;
+    .container__nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0 1% 0;
+
+
+    button {
+        @include button()
+    }
+}
+}
+
