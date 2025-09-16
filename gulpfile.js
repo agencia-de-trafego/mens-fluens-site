@@ -14,23 +14,23 @@ const browserSync = require('browser-sync').create();
 const paths = {
     html: {
         src: 'src/html/**/*.html',
-        dev: 'dev/html',
-        dist: 'dist/'
+        dev: 'dev',
+        dist: 'dist'
     },
     styles: {
         src: 'src/style/**/*.scss',
-        dev: 'dev/style/',
-        dist: 'dist/'
+        dev: 'dev',
+        dist: 'dist'
     },
     scripts: {
         src: 'src/javascript/**/*.js',
-        dev: 'dev/javascript/',
-        dist: 'dist/'
+        dev: 'dev',
+        dist: 'dist'
     },
     images: {
         src: 'src/image/**/*',
-        dev: 'dev/image/',
-        dist: 'dist/'
+        dev: 'dev',
+        dist: 'dist'
     }
 };
 
@@ -40,7 +40,7 @@ function serve(done) {
         server: {
             baseDir: 'dev'
         },
-        startPath: 'html/index.html',
+        startPath: '/index.html',
         open:true,
     });
     done();
