@@ -70,6 +70,7 @@ function htmlDev() {
     return gulp.src(paths.html.src)
     .pipe(replace('@@CSS_PATH@@', '/main.css'))
     .pipe(replace('../image/', ''))
+    .pipe(replace('../javascript/', ''))
     .pipe(gulp.dest(paths.html.dev))
     .pipe(browserSync.stream());
 }
@@ -79,6 +80,7 @@ function htmlDist() {
     return gulp.src(paths.html.src)
     .pipe(replace('@@CSS_PATH@@', '/main.min.css'))
     .pipe(replace('../image/', ''))
+    .pipe(replace('../javascript/', ''))
     .pipe(htmlmin({collapseWhitespace:true}))
     .pipe(gulp.dest(paths.html.dist));
 }

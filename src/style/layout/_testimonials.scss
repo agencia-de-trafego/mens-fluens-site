@@ -1,0 +1,89 @@
+@use "../abstracts/variaveis" as *;
+@use "../abstracts/mixins" as *;
+
+.testimonials { //section
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 2.5rem 0;
+
+    &__button {
+        border: none;
+        a {
+            @include button();
+            
+        }
+    }
+
+    &__paragrafo {
+        font-weight: normal;    
+        letter-spacing: 2px;
+    }
+
+    &__title {
+        font-weight: 700;
+        padding: 1rem 0 1.8rem 0;
+    }
+    
+    &__carousel { //div // CONTAINER
+        overflow: hidden;
+        width: 1050px;
+        &__slides { //ul // CARD-LIST
+            display: flex;
+            
+            width: calc(8*350px); // quantidade de depoimentos
+            transition: transform 0.4s ease;
+            
+            &__item {  //li // CARD-ITEM
+                list-style-type: none;
+                max-width: 350px;
+                padding:0 7px 0 7px;
+                
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &__buttons {
+            button {
+                cursor: pointer;
+                border: none;
+                background-color: none;
+            
+            }
+            #botao-ant {
+                position: absolute;
+                top: 50%;
+                left:10px;
+            }
+            #botao-prox {
+                position: absolute;
+                top: 50%;
+                right:10px;
+            }
+        }
+        &__radio {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0 1.5rem 0;
+            &__item {
+                margin: 0 0.3rem;
+                width: 8px;
+                height: 8px;
+                background-color: #636363;
+                border-radius: 50%;
+                display: inline-block;
+                cursor: pointer;
+                
+                &--is-active {
+                    background-color: #000;
+                    width: 9px;
+                    height: 9px;
+                }
+            }
+            
+        }
+    }
+}
