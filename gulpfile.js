@@ -80,7 +80,7 @@ function htmlDist() {
     return gulp.src(paths.html.src)
     .pipe(replace('@@CSS_PATH@@', '/main.min.css'))
     .pipe(replace('../image/', ''))
-    .pipe(replace('../javascript/', 'main.min.js'))
+    .pipe(replace('../javascript/main.js', 'main.min.js'))
     .pipe(htmlmin({collapseWhitespace:true}))
     .pipe(gulp.dest(paths.html.dist));
 }
