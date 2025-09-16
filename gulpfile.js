@@ -9,8 +9,8 @@ const imagemin = require('gulp-imagemin');
 const sourcemaps = require('gulp-sourcemaps');
 const replace = require('gulp-replace');
 const browserSync = require('browser-sync').create();
-//criando caminhos
 
+//criando caminhos
 const paths = {
     html: {
         src: 'src/html/**/*.html',
