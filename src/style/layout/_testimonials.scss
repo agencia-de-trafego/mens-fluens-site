@@ -54,14 +54,16 @@
             
             }
             #botao-ant {
+                background: none;
                 position: absolute;
                 top: 50%;
-                left:10px;
+                left:13%
             }
             #botao-prox {
+                background: none;
                 position: absolute;
                 top: 50%;
-                right:10px;
+                right:13%;
             }
         }
         &__radio {
