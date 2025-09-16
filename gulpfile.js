@@ -20,17 +20,17 @@ const paths = {
     styles: {
         src: 'src/style/**/*.scss',
         dev: 'dev/style/',
-        dist: 'dist/style/'
+        dist: 'dist/'
     },
     scripts: {
         src: 'src/javascript/**/*.js',
         dev: 'dev/javascript/',
-        dist: 'dist/javascript/'
+        dist: 'dist/'
     },
     images: {
         src: 'src/image/**/*',
         dev: 'dev/image/',
-        dist: 'dist/image/'
+        dist: 'dist/'
     }
 };
 
