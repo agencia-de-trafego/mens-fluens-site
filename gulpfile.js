@@ -68,7 +68,7 @@ function stylesDist() {
 //html para dev
 function htmlDev() {
     return gulp.src(paths.html.src)
-    .pipe(replace('@@CSS_PATH@@', '/style/main.css'))
+    .pipe(replace('@@CSS_PATH@@', '/main.css'))
     .pipe(gulp.dest(paths.html.dev))
     .pipe(browserSync.stream());
 }
