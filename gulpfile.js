@@ -76,7 +76,7 @@ function htmlDev() {
 //html em minificado para dist
 function htmlDist() {
     return gulp.src(paths.html.src)
-    .pipe(replace('@@CSS_PATH@@', '/main.css'))
+    .pipe(replace('@@CSS_PATH@@', '/main.min.css'))
     .pipe(htmlmin({collapseWhitespace:true}))
     .pipe(gulp.dest(paths.html.dist));
 }
