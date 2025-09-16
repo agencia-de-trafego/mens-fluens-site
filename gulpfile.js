@@ -15,7 +15,7 @@ const paths = {
     html: {
         src: 'src/html/**/*.html',
         dev: 'dev/html',
-        dist: 'dist'
+        dist: 'dist/html'
     },
     styles: {
         src: 'src/style/**/*.scss',
